@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/markdown/assets/main.jpg">
+</p>
+
 # godevto-site
 Example site on serverless JS + Go ([hugmouse/godevto](https://github.com/hugmouse/godevto))
 
