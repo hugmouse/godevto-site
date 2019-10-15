@@ -1,0 +1,103 @@
+  body {
+    background-color: black;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+    box-sizing: border-box;
+    padding: 20px 20px 60px;
+    max-width: 680px;
+    display: grid;
+    align-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.65;
+    word-break: break-word;
+    font-kerning: auto;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    hyphens: auto;
+    text-align: center;
+    color: cornsilk;
+  }
+
+  img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  a {
+    cursor: pointer;
+    color: #0076ff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid blueviolet;
+  }
+
+  div a {
+      padding: 5px;
+  }
+
+  b {
+    color: blueviolet;
+  }
+
+  b:hover {
+    text-decoration-line: underline;
+  }
+
+  a:hover {
+    border-bottom: 1px solid #0076ff;
+  }
+
+  code,
+  pre {
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 0.92em;
+    background: -webkit-linear-gradient(#ee4ae3, #c13db7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  code:before,
+  code:after {
+    content: '`';
+  }
+
+  code::selection {
+    -webkit-background-clip: text;
+  }
+
+  p {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  p.left {
+    float: left;
+    padding-left: 10%;
+  }
+
+  p.right {
+    float: right;
+    padding-right: 10%;
+  }
+
+  ::selection {
+    background-color: #661962;
+  }
+
+  div.borderme {
+    overflow: hidden;
+    border-width: thin;
+    border-color: deeppink;
+    border-style: solid;
+  }
